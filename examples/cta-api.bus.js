@@ -1,4 +1,4 @@
-var ctaNode = require("./cta-api.js")
+var ctaNode = require("cta-api")
 var trainApiKey = process.env.CTA_TRAIN_API_KEY
     , busApiKey = process.env.CTA_BUS_API_KEY
 
