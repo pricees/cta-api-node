@@ -1,6 +1,6 @@
 {
   "name": "cta-api",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Chicago Trainsit Authority (CTA) Api Wrapper",
   "main": "cta-api.js",
   "scripts": {
