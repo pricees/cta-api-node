@@ -1,0 +1,29 @@
+{
+  "name": "cta-api",
+  "version": "0.0.1",
+  "description": "Chicago Trainsit Authority (CTA) Api Wrapper",
+  "main": "cta-api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pricees/cta-api-node.git"
+  },
+  "keywords": [
+    "cta",
+    "chicago",
+    "transit",
+    "authority",
+    "thin",
+    "api",
+    "wrapper",
+    "node"
+  ],
+  "author": "Edward Price <ted.price@gmail.com> (http://pricees.github.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pricees/cta-api-node/issues"
+  },
+  "homepage": "https://github.com/pricees/cta-api-node#readme"
+}
