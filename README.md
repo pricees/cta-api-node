@@ -100,7 +100,7 @@ ctaNode.train.locations.get({ rt: 'red', key: trainApiKey }, callback, errorCb)
 
 #### Buses ####
 
-Official Train Tracker API:  
+Official Bus Tracker API:  
 http://www.transitchicago.com/assets/1/developer_center/BusTime_Developer_API_Guide.pdf
 
 __Time__
