@@ -17,6 +17,29 @@ https://data.cityofchicago.org/Transportation/CTA-System-Information-List-of-L-S
 
 ### Usage ###
 
+Get the api keys from above
+
+```bash
+$ export CTA_TRAIN_API_KEY=foo
+$ export CTA_BAR_API_KEY=foo
+$ node my_awesome.js
+```
+
+```javascript
+// my_awesome.js
+
+var ctaNode = require("cta-api");
+
+var trainApiKey = process.env.CTA_TRAIN_API_KEY
+    , busApiKey = process.env.CTA_BUS_API_KEY
+
+ctaNode
+  .train
+  .arrivals
+  .get({ mapid: 40360, max: 1, key: trainApiKey }, 
+      function(data) { console.log("Data: " + data); }
+      function(e) { console.log("Error: " + e.message); })
+```
 
 #### Trains ####
 
@@ -199,5 +222,4 @@ ctaNode.customerAlerts.detailedAlerts.get({}, callback, errorCb);
 ```
 ### Contribute ###
 
-Fork, code, pull request
-
+Fork, code, pull.
