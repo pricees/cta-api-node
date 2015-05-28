@@ -2,7 +2,6 @@ var http = require("http");
 var querystring = require("querystring");
 
 function get(options, callback, errorCb) {
-  console.log(this.url + "?" + querystring.stringify(options))
   http.get(this.url + "?" + querystring.stringify(options), function(res) {
     res.on('data', callback) 
   }).on('error', errorCb)
